@@ -11,8 +11,8 @@
 
 ## Lab Topics
 - GPIO
-- Polling
-- Interrupt
+  - Polling
+  - Interrupt
 - UART
 - ADC
 - Timer
