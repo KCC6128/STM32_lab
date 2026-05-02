@@ -14,6 +14,8 @@
   - Polling
   - Interrupt
 - UART
+  - Polling
+  - Interrupt
 - ADC
 - Timer
 - I2C
