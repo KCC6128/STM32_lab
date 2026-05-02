@@ -4,7 +4,7 @@
 
 This lab uses polling to read the PA0 button state and sequentially turn on the LEDs connected to PD12, PD13, PD14, and PD15.
 
-## Board
+## Board / Tool
 
 - STM32F407G-DISC1
 - MCU: STM32F407VGT6U
