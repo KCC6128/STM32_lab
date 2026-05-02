@@ -2,7 +2,7 @@
 
 ## Overview
 
-This lab uses GPIO external interrupt to detect the PA0 button event and control LEDs connected to PD12, PD13, PD14, and PD15.
+This lab uses a GPIO external interrupt to detect the PA0 button event and control the LEDs connected to PD12, PD13, PD14, and PD15.
 
 Unlike polling, this lab does not continuously check the button state in `while(1)`.  
 Instead, the button event triggers an EXTI interrupt, and the LED control logic is handled in `HAL_GPIO_EXTI_Callback()`.
