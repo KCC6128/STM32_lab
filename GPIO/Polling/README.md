@@ -42,23 +42,27 @@ This lab uses polling to read the PA0 button state and sequentially turn on the 
 ## Core Logic
 
 ```c
-if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == GPIO_PIN_SET)
-{
-    if (BTN_PRESSED_COUNT < 4)
-    {
-        PIN_NUM = (GPIO_PIN_12 << BTN_PRESSED_COUNT);
-        HAL_GPIO_WritePin(GPIOD, PIN_NUM, GPIO_PIN_SET);
-        BTN_PRESSED_COUNT++;
-    }
-    else
-    {
-        BTN_PRESSED_COUNT = 0;
-        HAL_GPIO_WritePin(GPIOD,
-                          GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15,
-                          GPIO_PIN_RESET);
-    }
+int BTN_PRESSED_COUNT = 0;
+uint16_t PIN_NUM = 0;
 
-    HAL_Delay(250);
+while (1)
+{
+    if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == GPIO_PIN_SET)
+    {
+        if (BTN_PRESSED_COUNT < 4)
+        {
+            PIN_NUM = (GPIO_PIN_12 << BTN_PRESSED_COUNT);
+            HAL_GPIO_WritePin(GPIOD, PIN_NUM, GPIO_PIN_SET);
+            BTN_PRESSED_COUNT++;
+        }
+        else
+        {
+            BTN_PRESSED_COUNT = 0;
+            HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15, GPIO_PIN_RESET);
+        }
+
+        HAL_Delay(250);
+    }
 }
 ```
 
