@@ -66,8 +66,3 @@ while (1)
 }
 ```
 
-## Note
-
-Detailed GPIO concepts and notes are documented in HackMD.
-This repository mainly stores STM32 practice projects and source code.
-
