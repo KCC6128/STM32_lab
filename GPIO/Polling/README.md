@@ -1,4 +1,3 @@
-````markdown
 # GPIO Polling LED
 
 ## Overview
@@ -38,7 +37,7 @@ This lab uses polling to read the PA0 button state and sequentially turn on the 
 3rd press -> PD14 ON
 4th press -> PD15 ON
 5th press -> all LEDs OFF and restart
-````
+```
 
 ## Core Logic
 
