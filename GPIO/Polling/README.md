@@ -6,7 +6,7 @@ This lab uses polling to read the PA0 button state and sequentially turn on the 
 
 ## Demo
 
-<img src="demo.gif" width="250"/>
+<img src="demo.gif" width="300"/>
 
 ## Board / Tool
 
