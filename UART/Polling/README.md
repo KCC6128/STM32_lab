@@ -18,6 +18,10 @@ This demo shows:
 
 [Watch the demo video](https://youtube.com/shorts/mh9_Z9emKg4?feature=share)
 
+<a href="https://youtube.com/shorts/mh9_Z9emKg4?feature=share">
+  <img src="UART Polling.png" width="300">
+</a>
+
 ## Board / Tool
 
 - STM32F407G-DISC1
