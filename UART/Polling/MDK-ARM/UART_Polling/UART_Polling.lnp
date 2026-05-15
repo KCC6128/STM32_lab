@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+"uart_polling\startup_stm32f407xx.o"
+"uart_polling\main.o"
+"uart_polling\stm32f4xx_it.o"
+"uart_polling\stm32f4xx_hal_msp.o"
+"uart_polling\stm32f4xx_hal_uart.o"
+"uart_polling\stm32f4xx_hal_rcc.o"
+"uart_polling\stm32f4xx_hal_rcc_ex.o"
+"uart_polling\stm32f4xx_hal_flash.o"
+"uart_polling\stm32f4xx_hal_flash_ex.o"
+"uart_polling\stm32f4xx_hal_flash_ramfunc.o"
+"uart_polling\stm32f4xx_hal_gpio.o"
+"uart_polling\stm32f4xx_hal_dma_ex.o"
+"uart_polling\stm32f4xx_hal_dma.o"
+"uart_polling\stm32f4xx_hal_pwr.o"
+"uart_polling\stm32f4xx_hal_pwr_ex.o"
+"uart_polling\stm32f4xx_hal_cortex.o"
+"uart_polling\stm32f4xx_hal.o"
+"uart_polling\stm32f4xx_hal_exti.o"
+"uart_polling\system_stm32f4xx.o"
+--strict --scatter "UART_Polling\UART_Polling.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UART_Polling.map" -o UART_Polling\UART_Polling.axf
