@@ -8,7 +8,15 @@ When STM32 receives the string `MCU`, it sends back `Hello!` through UART.
 
 ## Demo
 
-<img src="demo.gif" width="300"/>
+This demo shows:
+
+- UART wiring
+- Project build and download
+- Sending `MCU` from serial terminal
+- STM32 replying `Hello!`
+- Difference between `abcMCU` and `helloMCU`
+
+[Watch the demo video](https://youtube.com/shorts/mh9_Z9emKg4?feature=share)
 
 ## Board / Tool
 
