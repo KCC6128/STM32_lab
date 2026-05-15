@@ -21,9 +21,9 @@ This demo shows:
 - Sending `K`, `C`, `C` separately to show that UART interrupt waits until 3 bytes are received
 - Difference between `abcKCC` and `helloKCC`
 
-[Watch the demo video](YOUR_DEMO_LINK_HERE)
+[Watch the demo video](https://youtu.be/iP01HQailqY)
 
-<a href="YOUR_DEMO_LINK_HERE">
+<a href="https://youtu.be/iP01HQailqY">
   <img src="UART Interrupt.png" width="300">
 </a>
 
