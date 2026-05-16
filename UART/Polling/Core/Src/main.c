@@ -107,6 +107,8 @@ int main(void)
     /* USER CODE BEGIN 3 */
 		if(HAL_UART_Receive(&huart5, uRx_Data, 3, 100) == HAL_OK)
 		{
+			uRx_Data[3] = '\0';
+			
 			if(strcmp((char*)uRx_Data, "MCU") == 0)
 			{
 				HAL_UART_Transmit(&huart5, Test, sizeof(Test), 10);
