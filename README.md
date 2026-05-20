@@ -17,6 +17,9 @@
   - Polling
   - Interrupt
 - NVIC
+  - Deadlock-like
+  - Preemption_Priority
+  - Sub_Priority
 - Timer
 - ADC
 - I2C
