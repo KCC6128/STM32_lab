@@ -163,9 +163,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
                     HAL_Delay(500);
                 }
 
-                HAL_GPIO_WritePin(GPIOD,
-                                   GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15,
-                                   GPIO_PIN_RESET);
+                HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15, GPIO_PIN_RESET);
 
                 HAL_Delay(500);
             }
@@ -191,8 +189,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     {
         for (i = 0; i < 4; i++)
         {
-            HAL_GPIO_TogglePin(GPIOD,
-                               GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15);
+            HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15);
 
             HAL_Delay(1000);
         }
