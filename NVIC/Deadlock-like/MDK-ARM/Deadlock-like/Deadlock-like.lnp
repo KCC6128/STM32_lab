@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+"deadlock-like\startup_stm32f407xx.o"
+"deadlock-like\main.o"
+"deadlock-like\stm32f4xx_it.o"
+"deadlock-like\stm32f4xx_hal_msp.o"
+"deadlock-like\stm32f4xx_hal_rcc.o"
+"deadlock-like\stm32f4xx_hal_rcc_ex.o"
+"deadlock-like\stm32f4xx_hal_flash.o"
+"deadlock-like\stm32f4xx_hal_flash_ex.o"
+"deadlock-like\stm32f4xx_hal_flash_ramfunc.o"
+"deadlock-like\stm32f4xx_hal_gpio.o"
+"deadlock-like\stm32f4xx_hal_dma_ex.o"
+"deadlock-like\stm32f4xx_hal_dma.o"
+"deadlock-like\stm32f4xx_hal_pwr.o"
+"deadlock-like\stm32f4xx_hal_pwr_ex.o"
+"deadlock-like\stm32f4xx_hal_cortex.o"
+"deadlock-like\stm32f4xx_hal.o"
+"deadlock-like\stm32f4xx_hal_exti.o"
+"deadlock-like\system_stm32f4xx.o"
+--strict --scatter "Deadlock-like\Deadlock-like.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Deadlock-like.map" -o Deadlock-like\Deadlock-like.axf
