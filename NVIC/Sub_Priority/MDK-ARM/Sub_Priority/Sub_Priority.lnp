@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+"sub_priority\startup_stm32f407xx.o"
+"sub_priority\main.o"
+"sub_priority\stm32f4xx_it.o"
+"sub_priority\stm32f4xx_hal_msp.o"
+"sub_priority\stm32f4xx_hal_uart.o"
+"sub_priority\stm32f4xx_hal_rcc.o"
+"sub_priority\stm32f4xx_hal_rcc_ex.o"
+"sub_priority\stm32f4xx_hal_flash.o"
+"sub_priority\stm32f4xx_hal_flash_ex.o"
+"sub_priority\stm32f4xx_hal_flash_ramfunc.o"
+"sub_priority\stm32f4xx_hal_gpio.o"
+"sub_priority\stm32f4xx_hal_dma_ex.o"
+"sub_priority\stm32f4xx_hal_dma.o"
+"sub_priority\stm32f4xx_hal_pwr.o"
+"sub_priority\stm32f4xx_hal_pwr_ex.o"
+"sub_priority\stm32f4xx_hal_cortex.o"
+"sub_priority\stm32f4xx_hal.o"
+"sub_priority\stm32f4xx_hal_exti.o"
+"sub_priority\system_stm32f4xx.o"
+--strict --scatter "Sub_Priority\Sub_Priority.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Sub_Priority.map" -o Sub_Priority\Sub_Priority.axf
