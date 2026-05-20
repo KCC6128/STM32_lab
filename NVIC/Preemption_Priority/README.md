@@ -22,9 +22,9 @@ This demo shows:
 - UART5 preempting EXTI0 because UART5 has higher preemption priority
 - Returning to EXTI0 after UART5 interrupt finishes
 
-[Watch the demo video](YOUR_VIDEO_LINK)
+[Watch the demo video](https://youtube.com/shorts/HyCS1NnlbeE)
 
-<a href="YOUR_VIDEO_LINK">
+<a href="https://youtube.com/shorts/HyCS1NnlbeE">
   <img src="Preemption_Priority.png" width="300">
 </a>
 
