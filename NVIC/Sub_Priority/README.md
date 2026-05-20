@@ -24,9 +24,9 @@ This demo shows:
 - UART5 not preempting EXTI0 because both interrupts have the same preemption priority
 - UART5 running after EXTI0 finishes
 
-[Watch the demo video](YOUR_VIDEO_LINK)
+[Watch the demo video](https://youtube.com/shorts/p6fB8RkEybY)
 
-<a href="YOUR_VIDEO_LINK">
+<a href="https://youtube.com/shorts/p6fB8RkEybY">
   <img src="Sub_Priority.png" width="300">
 </a>
 
