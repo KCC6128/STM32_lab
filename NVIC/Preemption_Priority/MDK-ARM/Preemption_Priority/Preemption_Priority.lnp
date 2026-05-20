@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+"preemption_priority\startup_stm32f407xx.o"
+"preemption_priority\main.o"
+"preemption_priority\stm32f4xx_it.o"
+"preemption_priority\stm32f4xx_hal_msp.o"
+"preemption_priority\stm32f4xx_hal_uart.o"
+"preemption_priority\stm32f4xx_hal_rcc.o"
+"preemption_priority\stm32f4xx_hal_rcc_ex.o"
+"preemption_priority\stm32f4xx_hal_flash.o"
+"preemption_priority\stm32f4xx_hal_flash_ex.o"
+"preemption_priority\stm32f4xx_hal_flash_ramfunc.o"
+"preemption_priority\stm32f4xx_hal_gpio.o"
+"preemption_priority\stm32f4xx_hal_dma_ex.o"
+"preemption_priority\stm32f4xx_hal_dma.o"
+"preemption_priority\stm32f4xx_hal_pwr.o"
+"preemption_priority\stm32f4xx_hal_pwr_ex.o"
+"preemption_priority\stm32f4xx_hal_cortex.o"
+"preemption_priority\stm32f4xx_hal.o"
+"preemption_priority\stm32f4xx_hal_exti.o"
+"preemption_priority\system_stm32f4xx.o"
+--strict --scatter "Preemption_Priority\Preemption_Priority.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Preemption_Priority.map" -o Preemption_Priority\Preemption_Priority.axf
