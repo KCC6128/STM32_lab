@@ -16,8 +16,9 @@
 - UART
   - Polling
   - Interrupt
-- ADC
+- NVIC
 - Timer
+- ADC
 - I2C
 - SPI
 - Watchdog
