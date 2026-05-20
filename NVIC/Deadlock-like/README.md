@@ -25,9 +25,9 @@ This demo shows:
 - Deadlock-like behavior when SysTick priority is too low
 - Fixing the issue by increasing SysTick priority
 
-[Watch the demo video](YOUR_VIDEO_LINK)
+[Watch the demo video](https://youtube.com/shorts/3aw2m1-Z9y4)
 
-<a href="YOUR_VIDEO_LINK">
+<a href="https://youtube.com/shorts/3aw2m1-Z9y4">
   <img src="demo.png" width="300">
 </a>
 
