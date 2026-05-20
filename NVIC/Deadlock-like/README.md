@@ -28,7 +28,7 @@ This demo shows:
 [Watch the demo video](https://youtube.com/shorts/3aw2m1-Z9y4)
 
 <a href="https://youtube.com/shorts/3aw2m1-Z9y4">
-  <img src="demo.png" width="300">
+  <img src="Deadlock-like.png" width="300">
 </a>
 
 ## Board / Tool
