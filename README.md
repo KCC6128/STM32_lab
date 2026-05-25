@@ -21,6 +21,8 @@
   - Preemption_Priority
   - Sub_Priority
 - Timer
+  - Polling
+  - Interrupt
 - ADC
 - I2C
 - SPI
