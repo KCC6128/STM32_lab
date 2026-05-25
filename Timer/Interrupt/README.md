@@ -27,9 +27,9 @@ This demo shows:
 - LEDs toggle in groups every second
 - Timer interrupt does not need to be restarted inside the callback
 
-[Watch the demo video](YOUR_DEMO_VIDEO_LINK)
+[Watch the demo video](https://youtube.com/shorts/XvCi4jCaCyw)
 
-<a href="YOUR_DEMO_VIDEO_LINK">
+<a href="https://youtube.com/shorts/XvCi4jCaCyw">
   <img src="Timer_Interrupt.png" width="300">
 </a>
 
