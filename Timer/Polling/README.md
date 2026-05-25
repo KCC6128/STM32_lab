@@ -30,9 +30,9 @@ This demo shows:
 - LEDs toggle every second
 - The update flag must be cleared manually after polling
 
-[Watch the demo video](YOUR_DEMO_VIDEO_LINK)
+[Watch the demo video](https://youtube.com/shorts/mfjyS0ynwRc)
 
-<a href="YOUR_DEMO_VIDEO_LINK">
+<a href="https://youtube.com/shorts/mfjyS0ynwRc">
   <img src="Timer_Polling.png" width="300">
 </a>
 
