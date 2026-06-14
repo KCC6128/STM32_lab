@@ -96,7 +96,7 @@ For the STM32F407G-DISC1 board, the system voltage is mainly 3.3V.
 If the ADC reference voltage is approximately 3.3V, the step voltage can be estimated as:
 
 ```text
-VLSB = 3.3V / 4094096
+VLSB = 3.3V / 4096
      ≈ 0.000805V
      ≈ 0.805mV
 ```
