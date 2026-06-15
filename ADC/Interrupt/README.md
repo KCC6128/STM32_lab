@@ -39,9 +39,9 @@ This demo shows:
 * Sending ADC value to the computer through UART5
 * Observing ADC value changes when light intensity changes
 
-[Watch the demo video](YOUR_DEMO_VIDEO_LINK)
+[Watch the demo video](https://youtube.com/shorts/_0ZY4CjMlaU)
 
-<a href="YOUR_DEMO_VIDEO_LINK">
+<a href="https://youtube.com/shorts/_0ZY4CjMlaU">
   <img src="ADC_Interrupt.png" width="300">
 </a>
 
