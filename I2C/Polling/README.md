@@ -33,9 +33,9 @@ This demo shows:
 * Reading X / Y / Z acceleration raw data
 * Sending the result to the computer through UART5
 
-[Watch the demo video](YOUR_DEMO_VIDEO_URL)
+[Watch the demo video](https://youtu.be/Kt534a8tH-Q)
 
-<a href="YOUR_DEMO_VIDEO_URL">
+<a href="https://youtu.be/Kt534a8tH-Q">
   <img src="I2C_Polling.png" width="300">
 </a>
 
