@@ -27,6 +27,8 @@
   - Polling
   - Interrupt
 - I2C
+  - Polling
+  - Interrupt
 - SPI
 - Watchdog
 - DMA
