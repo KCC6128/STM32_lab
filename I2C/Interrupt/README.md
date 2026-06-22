@@ -48,9 +48,9 @@ This demo shows:
 * Using `accelReady` flag to process acceleration data in `while(1)`
 * Sending ACCEL_X / ACCEL_Y / ACCEL_Z raw data to the computer through UART5
 
-[Watch the demo video](YOUR_DEMO_VIDEO_URL)
+[Watch the demo video](https://youtu.be/oVgamOqKJ5Q)
 
-<a href="YOUR_DEMO_VIDEO_URL">
+<a href="https://youtu.be/oVgamOqKJ5Q">
   <img src="I2C_Interrupt.png" width="300">
 </a>
 
