@@ -30,6 +30,8 @@
   - Polling
   - Interrupt
 - SPI
+  - Polling
+  - Interrupt
 - Watchdog
 - DMA
 
