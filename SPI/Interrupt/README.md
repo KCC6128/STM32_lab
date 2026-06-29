@@ -45,9 +45,9 @@ This demo shows:
 * Converting raw accelerometer data into `g`
 * Sending acceleration values to the computer through UART5
 
-[Watch the demo video](https://youtu.be/your-demo-link)
+[Watch the demo video](https://youtu.be/7uOFTGUvc-0)
 
-<a href="https://youtu.be/your-demo-link">
+<a href="https://youtu.be/7uOFTGUvc-0">
   <img src="SPI_Interrupt.png" width="300">
 </a>
 
