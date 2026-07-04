@@ -32,9 +32,9 @@ This demo shows:
 * Changing the delay time to exceed the watchdog timeout
 * Observing the MCU reset through UART output
 
-[Watch the demo video](YOUR_VIDEO_LINK_HERE)
+[Watch the demo video](https://youtu.be/wO11miYB6Tk)
 
-<a href="YOUR_VIDEO_LINK_HERE">
+<a href="https://youtu.be/wO11miYB6Tk">
   <img src="IWDG.png" width="300">
 </a>
 
