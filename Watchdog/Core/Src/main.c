@@ -114,7 +114,7 @@ int main(void)
 
     HAL_IWDG_Refresh(&hiwdg);
 		
-		HAL_Delay(1200);
+		HAL_Delay(800);
   }
   /* USER CODE END 3 */
 }
