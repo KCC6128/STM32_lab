@@ -34,9 +34,9 @@ This demo shows:
 * Printing the received data back to the serial terminal
 * Restarting UART RX DMA after each receive completion
 
-[Watch the demo video](https://youtube.com/shorts/your_video_link)
+[Watch the demo video](https://youtu.be/QTgikpPpF_4)
 
-<a href="https://youtube.com/shorts/your_video_link">
+<a href="https://youtu.be/QTgikpPpF_4">
   <img src="DMA_UART_RX.png" width="300">
 </a>
 
