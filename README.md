@@ -32,10 +32,10 @@
 - SPI
   - Polling
   - Interrupt
-- Watchdog
 - DMA
   - UART_RX
   - UART_TX
+- Watchdog
 
 ## Note
 觀念整理與筆記主要記錄於 HackMD，本 repository 主要用來存放實作程式碼與專案檔。
