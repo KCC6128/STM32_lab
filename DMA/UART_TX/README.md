@@ -36,9 +36,9 @@ This demo shows:
 * Repeating the transmission every 1 second
 * Using `HAL_UART_TxCpltCallback()` to check when transmission is complete
 
-[Watch the demo video](https://youtu.be/your_video_link)
+[Watch the demo video](https://youtu.be/stJaQSPN7VA)
 
-<a href="https://youtu.be/your_video_link">
+<a href="https://youtu.be/stJaQSPN7VA">
   <img src="DMA_UART_TX.png" width="300">
 </a>
 
